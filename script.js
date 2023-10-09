@@ -24,7 +24,7 @@ const portfolio = document.querySelector('.portfolio');
 
 btn.addEventListener('click', () => {
     portfolio.classList.remove('non-active');
-    title.style = "margin-top: 300px;"
+    title.style = "margin-top: 150px;";
 });
 
 const btn_x = document.querySelector('.btn_x');
