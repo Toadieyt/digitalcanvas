@@ -27,10 +27,15 @@ header {
     z-index: 2;
 }
 
-header img {
+.icon-img {
     left: 20px;
     position: absolute;
-    width: 200px;
+    width: 60px;
+}
+
+.logo-img {
+    margin-left: -20px;
+    width: 180px;
 }
 
 .header-title {
@@ -228,6 +233,9 @@ footer p {
 }
 
 @media (max-width: 1060px) {
+    .logo-img {
+        display: none;
+    }
     .lang {
         right: 15%;
     }
